@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-// --- Estrutura (Struct) para organizar os dados de uma Carta ---
-// Isso torna o código mais limpo e fácil de manter do que usar variáveis separadas.
 typedef struct {
     char estado[3];         // Estado (Ex: SP, RJ)
     char codigo_carta[5];   // Código da carta (Ex: A01, B02)
@@ -73,7 +71,7 @@ int main() {
 
     // --- 3. ESCOLHA DO ATRIBUTO PARA COMPARAÇÃO (NO CÓDIGO) ---
 
-    // **Escolha o atributo que será comparado aqui.**
+    // **Escolha do atributo que será comparado aqui.**
     // Opções válidas: "Populacao", "Area", "PIB", "Densidade", "PIB per capita"
     const char *ATRIBUTO_ESCOLHIDO = "Densidade";
 
